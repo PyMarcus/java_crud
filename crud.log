@@ -1,0 +1,14 @@
+Aug 19, 2023 11:57:48 AM config.Config log
+SEVERE: org.apache.commons.configuration2.ex.ConfigurationException: Could not locate: FileLocator [basePath=null, encoding=null, fileName=credentials.ini, fileSystem=null, locationStrategy=null, sourceURL=null, urlConnectionOptions=null]
+Aug 19, 2023 11:59:08 AM config.Config log
+SEVERE: org.apache.commons.configuration2.ex.ConfigurationException: Could not locate: FileLocator [basePath=null, encoding=null, fileName=./credentials.ini, fileSystem=null, locationStrategy=null, sourceURL=null, urlConnectionOptions=null]
+Aug 19, 2023 12:00:00 PM config.Config log
+SEVERE: org.apache.commons.configuration2.ex.ConfigurationException: Could not locate: FileLocator [basePath=null, encoding=null, fileName=/home/marcus/IdeaProjects/CRUD/database/credentials.ini, fileSystem=null, locationStrategy=null, sourceURL=null, urlConnectionOptions=null]
+Aug 19, 2023 12:00:40 PM config.Config log
+SEVERE: org.apache.commons.configuration2.ex.ConfigurationException: Could not locate: FileLocator [basePath=null, encoding=null, fileName=/home/marcus/IdeaProjects/CRUD/database/credentials.ini, fileSystem=null, locationStrategy=null, sourceURL=null, urlConnectionOptions=null]
+Aug 19, 2023 12:02:08 PM config.Config log
+INFO: a
+Aug 19, 2023 12:08:37 PM config.Config log
+INFO: a
+Aug 19, 2023 12:11:17 PM config.Config log
+SEVERE: org.apache.commons.configuration2.ex.ConversionException: Key 'developement.port' cannot be converted to class java.lang.Integer. Value is: 'e'.
