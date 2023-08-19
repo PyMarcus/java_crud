@@ -1,14 +1,67 @@
-Aug 19, 2023 11:57:48 AM config.Config log
-SEVERE: org.apache.commons.configuration2.ex.ConfigurationException: Could not locate: FileLocator [basePath=null, encoding=null, fileName=credentials.ini, fileSystem=null, locationStrategy=null, sourceURL=null, urlConnectionOptions=null]
-Aug 19, 2023 11:59:08 AM config.Config log
-SEVERE: org.apache.commons.configuration2.ex.ConfigurationException: Could not locate: FileLocator [basePath=null, encoding=null, fileName=./credentials.ini, fileSystem=null, locationStrategy=null, sourceURL=null, urlConnectionOptions=null]
-Aug 19, 2023 12:00:00 PM config.Config log
-SEVERE: org.apache.commons.configuration2.ex.ConfigurationException: Could not locate: FileLocator [basePath=null, encoding=null, fileName=/home/marcus/IdeaProjects/CRUD/database/credentials.ini, fileSystem=null, locationStrategy=null, sourceURL=null, urlConnectionOptions=null]
-Aug 19, 2023 12:00:40 PM config.Config log
-SEVERE: org.apache.commons.configuration2.ex.ConfigurationException: Could not locate: FileLocator [basePath=null, encoding=null, fileName=/home/marcus/IdeaProjects/CRUD/database/credentials.ini, fileSystem=null, locationStrategy=null, sourceURL=null, urlConnectionOptions=null]
-Aug 19, 2023 12:02:08 PM config.Config log
-INFO: a
-Aug 19, 2023 12:08:37 PM config.Config log
-INFO: a
-Aug 19, 2023 12:11:17 PM config.Config log
-SEVERE: org.apache.commons.configuration2.ex.ConversionException: Key 'developement.port' cannot be converted to class java.lang.Integer. Value is: 'e'.
+INFO: Create only read connection
+Aug 19, 2023 3:01:39 PM config.Config log
+INFO: Create write connection
+Aug 19, 2023 3:01:39 PM config.Config log
+INFO: SELECT * FROM users;
+Aug 19, 2023 3:01:39 PM config.Config log
+INFO: Items fetched: 1
+Aug 19, 2023 3:01:39 PM config.Config log
+INFO: id: 1 name: first name email: first@email.com
+Aug 19, 2023 5:40:16 PM config.Config log
+INFO: Create only read connection
+Aug 19, 2023 5:40:16 PM config.Config log
+INFO: Create write connection
+Aug 19, 2023 5:40:16 PM config.Config log
+INFO: SELECT * FROM users;
+Aug 19, 2023 5:40:16 PM config.Config log
+INFO: Items fetched: 1
+Aug 19, 2023 5:40:16 PM config.Config log
+INFO: id: 1 name: first name email: first@email.com
+Aug 19, 2023 6:06:01 PM config.Config log
+INFO: Create only read connection
+Aug 19, 2023 6:06:01 PM config.Config log
+INFO: Create write connection
+Aug 19, 2023 6:06:01 PM config.Config log
+INFO: SELECT * FROM users;
+Aug 19, 2023 6:06:01 PM config.Config log
+INFO: Items fetched: 1
+Aug 19, 2023 6:06:01 PM config.Config log
+INFO: id: 1 name: first name email: first@email.com
+Aug 19, 2023 6:06:01 PM config.Config log
+INFO: Created!
+Aug 19, 2023 6:12:47 PM config.Config log
+INFO: Create only read connection
+Aug 19, 2023 6:12:47 PM config.Config log
+INFO: Create write connection
+Aug 19, 2023 6:12:47 PM config.Config log
+INFO: SELECT * FROM users;
+Aug 19, 2023 6:12:47 PM config.Config log
+INFO: Items fetched: 2
+Aug 19, 2023 6:12:47 PM config.Config log
+INFO: id: 1 name: first name email: first@email.com
+Aug 19, 2023 6:12:47 PM config.Config log
+INFO: id: 941186372 name: fulano email: fulano@email.com
+Aug 19, 2023 6:12:47 PM config.Config log
+INFO: Created!
+Aug 19, 2023 6:12:47 PM config.Config log
+INFO: Updated!
+Aug 19, 2023 6:15:24 PM config.Config log
+INFO: Create only read connection
+Aug 19, 2023 6:15:24 PM config.Config log
+INFO: Create write connection
+Aug 19, 2023 6:15:24 PM config.Config log
+INFO: SELECT * FROM users;
+Aug 19, 2023 6:15:24 PM config.Config log
+INFO: Items fetched: 3
+Aug 19, 2023 6:15:24 PM config.Config log
+INFO: id: 1 name: alterado email: alterado@email.com
+Aug 19, 2023 6:15:24 PM config.Config log
+INFO: id: 16765564 name: fulano email: fulano@email.com
+Aug 19, 2023 6:15:24 PM config.Config log
+INFO: id: 941186372 name: fulano email: fulano@email.com
+Aug 19, 2023 6:15:24 PM config.Config log
+INFO: Created!
+Aug 19, 2023 6:15:24 PM config.Config log
+INFO: Updated!
+Aug 19, 2023 6:15:24 PM config.Config log
+INFO: REMOVED!
